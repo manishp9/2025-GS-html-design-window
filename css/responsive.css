@@ -1,0 +1,561 @@
+@media all and (max-width:1799px) {}
+
+@media all and (max-width:1599px) {}
+
+@media all and (max-width:1399px) {
+    .contact-text h3 {
+        font-size: 35px;
+    }
+
+    .contact-text p {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .contact-text div {
+        font-size: 38px;
+    }
+
+    .contact-text,
+    .contact-form {
+        width: 50%;
+    }
+
+    .contact-form {
+        padding-left: unset
+    }
+
+    .contact-form p {
+        font-size: 13px;
+        letter-spacing: 3.9px;
+    }
+                 .sign-div {
+                     width:425px;
+                 }
+        
+                 .autograph {
+                     width: 800px;
+                 }
+
+}
+
+@media all and (max-width:1199px) {
+
+    .unfolded-main,
+    .vision-main {
+        min-height: 350px;
+    }
+
+    .transform-main {
+        min-height: 500px;
+    }
+
+    .unfolded-data h2,
+    .vision-data h2,
+    .transform-data h2,
+    .profound-data h2 {
+        font-size: 46px;
+        line-height: 60px;
+    }
+
+    .contact-text h3 {
+        font-size: 33px;
+    }
+
+    .contact-text p {
+        font-size: 18px;
+    }
+
+    .contact-text div {
+        font-size: 38px;
+    }
+
+    .contact-text,
+    .contact-form {
+        width: 50%;
+    }
+
+    .contact-form {
+        padding-left: unset
+    }
+
+
+    .contact-form p {
+        font-size: 10px;
+        letter-spacing: 3.9px;
+    }
+
+    .inspired-text {
+        left: 105px;
+    }
+
+    .inspired-text h2 {
+        font-size: 56px;
+        line-height: 55px;
+    }
+
+    .reveal-main .inspired-text {
+        left: 88px;
+    }
+
+    .create-data h1 {
+        font-size: 75px;
+        line-height: 70px;
+    }
+                         .sign-div {
+                             width: 270px;
+                         }
+            
+                         .autograph {
+                             width: 450px;
+                         }
+}
+
+@media all and (max-width:991px) {
+
+    .unfolded-main,
+    .vision-main {
+        min-height: 300px;
+    }
+
+    .transform-main {
+        min-height: 400px;
+    }
+
+    .unfolded-data h2,
+    .vision-data h2,
+    .transform-data h2,
+    .profound-data h2 {
+        font-size: 37px;
+        line-height: 45px;
+    }
+
+    .contact-us {
+        flex-direction: column;
+        gap: 30px
+    }
+
+    .contact-text,
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-text h3 {
+        font-size: 38px;
+    }
+
+    .contact-text p {
+        font-size: 18px;
+    }
+
+    .contact-text div {
+        font-size: 45px;
+    }
+
+
+    .contact-form {
+        padding-left: unset
+    }
+
+    .contact-form-data {
+        flex-direction: column;
+    }
+
+    .contact-form-data .name-div,
+    .contact-form-data .msg-div {
+        width: 100%;
+    }
+
+
+    .contact-form p {
+        font-size: 14px;
+        letter-spacing: 6.3px;
+    }
+
+    .contact-us-main {
+        padding: 80px 0;
+    }
+
+    .inspired {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .inspired-text,
+    .inspired-slider {
+        width: 100%;
+    }
+
+    .inspired-text {
+        left: 0;
+    }
+
+    .inspired-text h2 {
+        line-height: 61px;
+        font-size: 60px;
+    }
+
+    .reveal-main .inspired-text {
+        left: 0;
+    }
+
+    .create-data h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+}
+
+@media all and (max-width:767px) {
+    body {
+        padding-top: 95px;
+    }
+
+
+    .contact-form p {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        font-size: 0;
+    }
+
+    .contact-form p a {
+        display: block;
+        font-size: 14px;
+        letter-spacing: 0;
+        margin-top: 8px;
+    }
+
+    .contact-form-data .name-div input,
+    .msg-div textarea,
+    .contact-form button {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 0;
+        padding: 0 20px;
+        height: 52px;
+    }
+
+    .contact-form-data .name-div input,
+    .msg-div textarea,
+    .contact-form-data .name-div input::placeholder,
+    .msg-div textarea::placeholder {
+        font-size: 14px;
+    }
+
+    .create-main::before {
+        width: 200px;
+        height: 460px;
+        top: 60px;
+        background-size: auto 460px;
+    }
+
+    .msg-div textarea {
+        height: 120px;
+        padding: 20px;
+    }
+
+    .shade-main {
+        min-height: calc(100vh - 95px);
+    }
+
+
+
+    .create-main {
+    min-height: calc(100vh - 95px);
+    }
+
+
+
+    .toogle-menu {
+        border-left: none;
+        border-top: 5px solid #FFE5C3;
+        width: 100%;
+    }
+
+    .header-inner {
+        padding: 25px 0;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .header-logo {
+        width: 100%;
+        max-width: 160px;
+    }
+
+    .header-toogle button span {
+        height: 4px;
+    }
+
+    .header-toogle button {
+        width: 36px;
+    }
+
+    .unfolded-main,
+    .vision-main {
+        min-height: 300px;
+    }
+
+    .transform-main {
+        min-height: 300px;
+    }
+
+    .unfolded-data h2,
+    .vision-data h2,
+    .transform-data h2,
+    .profound-data h2 {
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -2px;
+    }
+
+    .vision-data button,
+    .transform-data button {
+        font-size: 14px;
+    }
+
+    .contact-us {
+        flex-direction: column;
+        gap: 30px
+    }
+
+    .contact-text,
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-text h3 {
+        font-size: 28px;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+    }
+
+    .contact-text p {
+        font-size: 18px;
+        line-height: 26px;
+        width: 100%;
+    }
+
+    .contact-text div {
+        font-size: 34px;
+    }
+
+    .contact-form {
+        padding-left: unset
+    }
+
+    .contact-form-data {
+        flex-direction: column;
+    }
+
+    .contact-form-data .name-div,
+    .contact-form-data .msg-div {
+        width: 100%;
+    }
+
+    .contact-us-main {
+        padding: 50px 0;
+    }
+
+    .inspired {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .inspired-text,
+    .inspired-slider {
+        width: 100%;
+    }
+
+    .inspired-text {
+        left: 0;
+    }
+
+    .inspired-text h2 {
+        line-height: 30px;
+        font-size: 25px;
+    }
+
+    .inspired-text a {
+        margin-top: 20px;
+    }
+
+    .reveal-main .inspired-text {
+        left: 0;
+    }
+
+    .gallery-img-1 {
+        width: 45%;
+    }
+
+    .gallery-img-2 {
+        width: 55%;
+    }
+
+    .gallery-img-4 {
+        width: 45%;
+    }
+
+    .gallery-img-3 {
+        width: 55%;
+    }
+
+    .gallery-img-5 {
+        width: 45%;
+    }
+
+    .gallery-img-6 {
+        width: 55%;
+    }
+
+    .banner-data p {
+        font-size: 19px;
+        width: unset;
+        line-height: 30px;
+    }
+
+    .shade-img {
+        width: 100%;
+    }
+
+    .create-data h1 {
+        font-size: 40px;
+        line-height: 40px;
+        width: 100%;
+    }
+
+    .animation_btn {
+        font-size: 15px;
+        padding: 15px 25px;
+        line-height: 18px;
+    }
+
+    .vision-main::before {
+        opacity: 0.3;
+    }
+
+    .footer-main {
+        padding: 20px 0;
+    }
+
+    .footer-logo {
+        width: 130px;
+    }
+         .sign-div {
+             width: 200px;
+         }
+    
+         .autograph {
+                    width: 354px;
+         }
+}
+
+@media all and (max-width:567px) {
+    .profound-main {
+        padding: 50px 0;
+    }
+
+    .profound-data h2 {
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        line-height: 25px;
+    }
+
+    .tabs-nav ul {
+        gap: 0;
+        width: 100%;
+    }
+
+    .tabs-nav ul li {
+        width: 50%;
+    }
+
+    .tabs-nav a {
+        font-size: 12px;
+        padding: 0 0 12px 0;
+    }
+
+    .banner {
+        min-height: 300px;
+    }
+
+    .toogle-menu-inner ul li a br {
+        display: none;
+    }
+
+    .toogle-menu-inner ul {
+        gap: 30px;
+    }
+
+    .gallery-tab {
+        gap: 0;
+    }
+
+    .gallery-box button {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .banner-data p {
+        font-size: 13px;
+        width: unset;
+        line-height: 20px;
+    }
+
+    .shade-img {
+        width: 100%;
+    }
+
+    .create-data h1 {
+        line-height: unset;
+        font-size: 30px;
+        line-height: 30px;
+        width: 100%;
+    }
+
+
+    .gallery {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-auto-rows: 150px;
+        grid-auto-flow: dense;
+    }
+
+    .long_height {
+        grid-row: span 2;
+    }
+
+    .wide_width {
+        grid-column: span 2;
+    }
+
+    .gallery-page h1 {
+        padding-bottom: 30px;
+        font-size: 28px;
+    }
+
+    .gallery-page {
+        padding: 50px 0;
+    }
+
+    .inspired-text h2 span br {
+        display: none;
+    }
+
+    #gallery_section,
+    #contact_section {
+        scroll-margin-top: 95px;
+    }
+    .sign-div{
+            width: 150px;
+    }
+
+    .autograph {
+        width: 280px;
+    }
+}
